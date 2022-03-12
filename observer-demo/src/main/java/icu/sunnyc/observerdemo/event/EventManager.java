@@ -19,7 +19,7 @@ public class EventManager {
     /**
      * 存放 事件类型 和对应的 事件监听者们（list）
      */
-    Map<Enum<EventType>, List<EventListener>> listeners = new HashMap<>();
+    private final Map<Enum<EventType>, List<EventListener>> listeners = new HashMap<>();
 
     @SafeVarargs
     public EventManager(Enum<EventType>... operations) {
