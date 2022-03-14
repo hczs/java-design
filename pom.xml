@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>observer-demo</module>
+        <module>chain-of-responsibility-demo</module>
     </modules>
 
     <properties>
