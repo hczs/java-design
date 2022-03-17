@@ -11,7 +11,7 @@
 - 代理模式：简单实现MyBatis，定义一个UserMapper接口，通过代理模式生成其代理类，执行具体方法
 
 
-参考：
+## 参考：
 1. 结城浩.图解设计模式 [M] .人民邮电出版社，2017
 2. 程杰.大话设计模式 [M] .清华大学出版社，2007
 3. [菜鸟教程](https://www.runoob.com/design-pattern/design-pattern-tutorial.html)
