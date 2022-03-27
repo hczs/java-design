@@ -12,6 +12,7 @@
         <module>observer-demo</module>
         <module>command-order</module>
         <module>chain-of-responsibility-demo</module>
+        <module>strategy-demo</module>
     </modules>
 
     <properties>
