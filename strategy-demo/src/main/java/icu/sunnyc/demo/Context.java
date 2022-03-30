@@ -10,13 +10,14 @@ import java.math.BigDecimal;
  */
 public class Context<T> {
 
-    private ICouponDiscount<T> couponDiscount;
+    private final ICouponDiscount<T> couponDiscount;
 
     public Context(ICouponDiscount<T> couponDiscount) {
         this.couponDiscount = couponDiscount;
     }
 
     public BigDecimal discountAmount(T couponInfo, BigDecimal skuPrice) {
+        System.out.println("优惠金额计算中... 原价：" + skuPrice);
         return couponDiscount.discountAmount(couponInfo, skuPrice);
     }
 }
