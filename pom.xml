@@ -13,6 +13,7 @@
         <module>command-order</module>
         <module>chain-of-responsibility-demo</module>
         <module>strategy-demo</module>
+        <module>decorator-demo</module>
     </modules>
 
     <properties>
